@@ -1,0 +1,21 @@
+
+.column {
+  float: left;
+  width: 48%;
+  padding: 12px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.figurecaption{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  font-size: 25px;
+  text-align: center;
+}

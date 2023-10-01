@@ -1,4 +1,4 @@
-<!-- 
+<!--
     COMP 333: Software Engineering
     Sebastian Zimmeck (szimmeck@wesleyan.edu)
 -->
@@ -6,34 +6,34 @@
 <!--
     You can use this file as a starting point for any HTML page that you want to
     create.
-    
-    This is a comment. Comments will not be displayed in the browser. A comment 
+
+    This is a comment. Comments will not be displayed in the browser. A comment
     can go over one or multiple lines.
 
-    Use the !DOCTYPE declaration to explicitly tell the browser receiving this 
+    Use the !DOCTYPE declaration to explicitly tell the browser receiving this
     file that it is an HMTL file. A DOCTYPE associates a particular document
     with a document type definition (DTD), for example, the formal definition of
-    a particular version of HTML 2.0 - 4.0. The HTML layout engines in modern 
-    web browsers perform DOCTYPE "sniffing" or "switching", wherein the DOCTYPE 
-    in a document determines a layout mode, such as "quirks mode" (for 
-    compatibility) or "standards mode" (for compliance with current standards). 
-    The DOCTYPE is retained in HTML5 as a "mostly useless, but required" header 
+    a particular version of HTML 2.0 - 4.0. The HTML layout engines in modern
+    web browsers perform DOCTYPE "sniffing" or "switching", wherein the DOCTYPE
+    in a document determines a layout mode, such as "quirks mode" (for
+    compatibility) or "standards mode" (for compliance with current standards).
+    The DOCTYPE is retained in HTML5 as a "mostly useless, but required" header
     only to trigger "standards mode" in common browsers.
 -->
 <!DOCTYPE html>
 <!--
-    After the DOCTYPE, the html document begins as is indicated by the html 
-    root element. You can think of your entire html document as a tree and 
+    After the DOCTYPE, the html document begins as is indicated by the html
+    root element. You can think of your entire html document as a tree and
     the html element as the root from which everything else sprouts.
-    
-    The language attribute is used by web search engines to display search 
-    results in a particular language. E.g. if you are using Google in the US, 
+
+    The language attribute is used by web search engines to display search
+    results in a particular language. E.g. if you are using Google in the US,
     you will not see many French pages returned in your results.
 -->
 <html lang="en">
-  <!-- 
-    The head section has all the meta information, i.e., information about our 
-    website that will not be displayed to people. It tells browsers and search 
+  <!--
+    The head section has all the meta information, i.e., information about our
+    website that will not be displayed to people. It tells browsers and search
     engines basic information about the page such as the title, the charset, etc.
 -->
   <head>
@@ -43,17 +43,17 @@
     -->
     <meta charset="utf-8" />
     <!--
-        People may view your site on a desktop or mobile browser. There is even 
+        People may view your site on a desktop or mobile browser. There is even
         the trend of mobile first. The viewport takes care of this for us.
-        The description is a tag for displaying a summary (155-160 characters) 
-        describing the content of a web page, e.g., for search engines to show 
+        The description is a tag for displaying a summary (155-160 characters)
+        describing the content of a web page, e.g., for search engines to show
         in search results.
     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <!--
-        The title is important for search engine optimization (SEO). It will be 
-        visible to people in the tab in which the site is opened. Titles 
+        The title is important for search engine optimization (SEO). It will be
+        visible to people in the tab in which the site is opened. Titles
         should be unique.
     -->
     <title>COMP 333: Software Engineering</title>
@@ -64,23 +64,23 @@
             p{color:red;}
         </style>
 
-        This style would turn all font in paragraphs red. Generally, it is a 
-        good idea to use a dedicated Style Sheet to have all styles 
+        This style would turn all font in paragraphs red. Generally, it is a
+        good idea to use a dedicated Style Sheet to have all styles
         systematically in one place and not duplicate those. But if you only
-        use a style once, in-line will also work. You can include a link as 
-        below in any HTML page where you want to use styles from your Style 
+        use a style once, in-line will also work. You can include a link as
+        below in any HTML page where you want to use styles from your Style
         Sheet.
 
-        You can have multiple Style Sheets with one line per style sheet as 
+        You can have multiple Style Sheets with one line per style sheet as
         shown below; the browser can then use all.
 
         Just as CSS styles, you can also include JavaScript code in-line in your
         HTML files using the <script> and </script? opening and closing tags.
-        Place CSS styles/links in the header and JavaScript code/links before the 
+        Place CSS styles/links in the header and JavaScript code/links before the
         closing </body> tag. The reason for having Style Sheets in the header is
         that otherwise browsers would need to reflow the layout while people
-        are trying to interact with the page. If you would not have JavaScript 
-        at the end, browsers in some cases would have to block processing 
+        are trying to interact with the page. If you would not have JavaScript
+        at the end, browsers in some cases would have to block processing
         the HTML while JavaScript code is still being loaded.
         https://stackoverflow.com/questions/6625773/where-should-i-put-the-css-and-javascript-code-in-an-html-webpage
         https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup/24070373#24070373
@@ -89,14 +89,14 @@
   </head>
 
   <!--
-    The body holds all content that is visible and determines 
+    The body holds all content that is visible and determines
     the structure of your page.
   -->
   <body>
-    <!-- 
+    <!--
         Everything between two tags, including the tags themselves, is an HTML
-        element or just element. Headings come in six different sizes: <h1></h1> 
-        to <h6></h6>. Note that it is not possible to autonumber headings in 
+        element or just element. Headings come in six different sizes: <h1></h1>
+        to <h6></h6>. Note that it is not possible to autonumber headings in
         HTML. You would need to write such functionality yourself (or use a
         library).
      -->
@@ -111,8 +111,8 @@
     <p>This is paragraph with a horizontal rule on top.</p>
     <!--
         Additional items, such as style below, are attributes of an elment. The
-        style code is our first example of CSS and how we can use it together 
-        with HTML. We can also use style outside of the p tags, in which case it 
+        style code is our first example of CSS and how we can use it together
+        with HTML. We can also use style outside of the p tags, in which case it
         would apply to the whole site.
     -->
     <p style="background: pink">
@@ -127,13 +127,13 @@
     <del>Crossed out text.</del><br />
     A <sub>subscript</sub><br />
     A <sup>superscript</sup><br />
-    <!-- 
+    <!--
         Underlined text may be confused with links. So, use it sparingly.
     -->
     <u>Underlined text.</u><br />
     <i>Text in italics.</i><br />
     <!--
-        Note the difference between the strong and bold tags. They look the 
+        Note the difference between the strong and bold tags. They look the
         same but have different meaning.
     -->
     <b>Bold text is just a style.</b><br />
@@ -148,8 +148,8 @@
       For longer text you can use blockquotes, which will be indented.
     </blockquote>
     <!--
-        Just as for the bold and strong tags, italics and cited text looks 
-        the same but have a different meaning when browsers and search 
+        Just as for the bold and strong tags, italics and cited text looks
+        the same but have a different meaning when browsers and search
         engines enounter it. Citing is for, well, citing. Italics is just
         italics style without any particular semantics associated.
     -->
@@ -165,17 +165,17 @@
     </p>
     <h2>3. Divs</h2>
     <!--
-        divs and spans are very important fundamental tags for grouping HTML 
+        divs and spans are very important fundamental tags for grouping HTML
         content together. A span works in-line and is often used for a small
-        chunk of HTML inside a line, e.g., part of a paragraph. A div (from 
-        division) works block-line and causes a line break before and after 
+        chunk of HTML inside a line, e.g., part of a paragraph. A div (from
+        division) works block-line and causes a line break before and after
         it. It is used to group larger chunks of HTML.
     -->
     <div>Here is a div (divison) with styling from our Style Sheet.</div>
     And here we have <span>a span</span>.<br />
     Note, this text is not blue because it is not within paragraph tags.
     <!--
-        Both divs and spans are natural entry points for styling your page 
+        Both divs and spans are natural entry points for styling your page
         with CSS. Both do not have any particular style associated with them,
         but rather you would use them to delineate a part of your page to which
         you want to apply a particular style using CSS.
@@ -280,7 +280,7 @@
     </p>
     <img
       src="http://sebastianzimmeck.de/doesnotexist.html"
-      alt="Here should be an image but there is none, which is why you are seing 
+      alt="Here should be an image but there is none, which is why you are seing
       the broken image link icon and alt text."
     />
     Also, screen readers for the visually impaired can read the alt text. So,
@@ -296,7 +296,7 @@
     </ul>
     <h3 id="ordered-lists">7.2 Ordered Lists</h3>
     Here is an ordered list (with roman numeral type):
-    <!-- 
+    <!--
         With the type attribute you can change the number type.
     -->
     <ol type="I">
@@ -326,20 +326,20 @@
     <h3>7.4 Tables</h3>
     <p>Here is how you can create tables:</p>
     <table>
-      <!-- 
-            <tr> tag for a table row 
+      <!--
+            <tr> tag for a table row
       -->
       <tr>
-        <!-- 
-            <th> tag for table header 
+        <!--
+            <th> tag for table header
         -->
         <th>Band Name</th>
         <th>Music Style</th>
         <th>Origin</th>
       </tr>
       <tr>
-        <!-- 
-            <td> tag for a table cell 
+        <!--
+            <td> tag for a table cell
         -->
         <td>The Velvet Underground</td>
         <td>Punk</td>
@@ -402,27 +402,27 @@
       field verifies the email address format. The backend is missing here. We
       would need a database to receive the submitted data.
     </p>
-    <!-- 
+    <!--
         Send data to html_sample_2.html.
     -->
     <form action="html_sample_2.html">
-      <!-- 
+      <!--
             Ask for text input.
       -->
       <input type="text" name="first-name" value="Enter your first name" />
       <input type="email" value="Enter your email" />
-      <!-- 
+      <!--
             You can have people submitting data without showing it, which can
-            be useful for a cookie value that you are passing in here, for 
-            example. 
+            be useful for a cookie value that you are passing in here, for
+            example.
       -->
       <input
         type="hidden"
         name="hidden-field"
         value="pass-in-cookie-value-here"
       />
-      <!-- 
-            Submit button 
+      <!--
+            Submit button
       -->
       <input type="submit" value="Submit" />
     </form>
@@ -434,7 +434,7 @@
       Sheet.
     </p>
     <iframe src="html_sample_2.html" name="navframe"></iframe>
-    <!-- 
+    <!--
         This page does not require any JavaScript. The import of jQuery is just
         an example how a script can be imported (locally, i.e., not via a URL).
     -->
