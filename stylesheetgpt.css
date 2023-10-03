@@ -18,6 +18,10 @@ h1, h2 {
     text-align: center;
 }
 
+.ad {
+    text-align: center;
+}
+
 #WhyUse, #Features {
     text-align: center;
     margin-top: 40px;
