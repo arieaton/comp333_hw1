@@ -6,8 +6,8 @@ body, h1, h2, p {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
+    margin: 0px;
+    line-height: 2;
 }
 
 h1, h2 {
@@ -20,6 +20,11 @@ h1, h2 {
 
 .ad {
     text-align: center;
+    background-color: #f4f4f4;
+}
+
+#WhyUse{
+    background-color: #f4f4f4;
 }
 
 #WhyUse, #Features {
