@@ -11,75 +11,92 @@
     <link rel="stylesheet" href="stylesheetgpt.css" />
   </head>
   <body>
-    <div class="top-bar">
-      <div class="logo">
-        <img src="images/twofriends.png" alt="Logo" />
-      </div>
-      <div class="nav-links">
-        <a href="Sign-Up Page.html">Sign Up</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Landing Page for Cool Music Review Site"
+        />
+        <title>Ari and Richie's Music Review Site</title>
+        <link rel="stylesheet" href="stylesheetgpt.css" />
+      </head>
+      <body>
+        <div class="top-bar">
+          <div class="logo">
+            <img src="images/twofriends.png" alt="Logo" />
+          </div>
+          <div class="nav-links">
+            <a href="Sign-Up Page.html">Sign Up</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div id="WhyUse">
+          <h1>Why Use This Site</h1>
+          <p>Look at these images! They're in a flexbox!</p>
+        </div>
+        <div class="image-flex">
+          <div class="column">
+            <figure class="figurecaption">
+              <img
+                src="images/MakeFriends.png"
+                alt="Cowboy playing music for cowgirl"
+              />
+              <figcaption>Make Friends!</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="figurecaption">
+              <img
+                src="images/DiscoverMusic.jpg"
+                alt="Cool girl listening to music"
+              />
+              <figcaption>Discover New Music!</figcaption>
+            </figure>
+          </div>
+        </div>
 
-    <h1 id="WhyUse">Why Use This Site</h1>
-    <div class="row">
-      <div class="column">
-        <figure class="figurecaption">
-          <img
-            src="images/MakeFriends.png"
-            alt="Cowboy playing music for cowgirl"
-          />
-          <figcaption>Make Friends!</figcaption>
-        </figure>
-      </div>
-      <div class="column">
-        <figure class="figurecaption">
-          <img
-            src="images/DiscoverMusic.jpg"
-            alt="Cool girl listening to music"
-          />
-          <figcaption>Discover New Music!</figcaption>
-        </figure>
-      </div>
-    </div>
+        <div class="ad">
+          <h1 id="adTitle">Here's an ad in an iframe!</h1>
+          <p id="adSub">
+            Don't worry, it's not a real spotify ad. But you can click it!
+          </p>
+          <iframe
+            src="spotify_adGPT.html"
+            width="400"
+            height="275"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
 
-    <div class="ad">
-      <h1 id="adTitle">Here's an ad in an iframe!</h1>
-      <p id="adSub">
-        The iframe can be clicked like an ad, but it is not a real ad.
-      </p>
-      <iframe
-        src="spotify_adGPT.html"
-        width="400"
-        height="275"
-        frameborder="0"
-        scrolling="no"
-      ></iframe>
-    </div>
+        <h1 id="Features">Technical Features</h1>
 
-    <h1 id="Features">Technical Features</h1>
+        <div id="Hyperlinks" class="navbar">
+          <h2 id="Links">Compatible Music Streaming Platforms</h2>
+          <a href="https://spotify.com/">Spotify!</a><br />
+          <a href="https://soundcloud.com">Soundcloud!</a><br />
+          <a href="https://music.apple.com/">Apple Music</a><br />
+        </div>
 
-    <div id="Hyperlinks" class="navbar">
-      <h2 id="Links">Compatible Music Streaming Platforms</h2>
-      <a href="https://spotify.com/">Spotify!</a><br />
-      <a href="https://soundcloud.com">Soundcloud!</a><br />
-      <a href="https://music.apple.com/">Apple Music</a><br />
-    </div>
+        <div>
+          <p style="background: pink">
+            If all of this has piqued your interest, please
+            <a href="Sign-Up Page.html">sign up!</a>
+          </p>
+        </div>
 
-    <div>
-      <p style="background: pink">
-        If all of this has piqued your interest, please
-        <a href="Sign-Up Page.html">sign up!</a>
-      </p>
-    </div>
-
-    <div id="navbar" class="navbar">
-      <ul>
-        <li><a href="#WhyUse">Why Use the Site</a></li>
-        <li><a href="#Features">Technical Features</a></li>
-        <li><a href="#Links">Other Links</a></li>
-      </ul>
-    </div>
+        <div id="navbar" class="navbar">
+          <ul>
+            <li><a href="#WhyUse">Why Use the Site</a></li>
+            <li><a href="#Features">Technical Features</a></li>
+            <li><a href="#Links">Other Links</a></li>
+          </ul>
+        </div>
+      </body>
+    </html>
   </body>
 </html>

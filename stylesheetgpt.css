@@ -1,8 +1,8 @@
-/* Reset some default styles for browsers */
-body, figure, h1, h2, p, ul, li {
+/* Reset some default styles */
+body, h1, h2, p {
     margin: 0;
     padding: 0;
-}
+  }
 
 body {
     font-family: Arial, sans-serif;
@@ -56,6 +56,7 @@ h1, h2 {
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
+    text-align: center;
 }
 
 #Hyperlinks a {
@@ -117,4 +118,35 @@ p {
   
   .nav-links a:hover {
     text-decoration: underline;
+  }
+  
+  /* New style for the image flexbox */
+  .image-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .column {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+  }
+  
+  .figurecaption {
+    background-color: #333;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #navbar {
+    color: red;
   }
