@@ -100,7 +100,6 @@ p {
 .navbar ul li a:hover {
     background-color: #555;
 }
-
 .top-bar {
     background-color: #333;
     color: white;
@@ -109,22 +108,30 @@ p {
     justify-content: space-between;
     padding: 10px 20px;
   }
-  
+
+.top-bar h1 {
+    margin: 0;
+    font-size: 36px;           /* Increase the font size */
+    letter-spacing: 1.5px;     /* Add some letter spacing */
+    font-weight: 500;          /* Adjust the font weight */
+    padding: 10px 0;           /* Provide some padding */
+}
+
   .logo img {
     max-width: 100px;
   }
-  
+
   .nav-links a {
     text-decoration: none;
     color: white;
     margin-right: 20px;
     font-weight: bold;
   }
-  
+
   .nav-links a:hover {
     text-decoration: underline;
   }
-  
+
   /* New style for the image flexbox */
   .image-flex {
     display: flex;
@@ -133,16 +140,16 @@ p {
     align-items: center;
     padding: 20px;
   }
-  
+
   .column {
     flex-basis: calc(50% - 20px);
     margin: 10px;
   }
-  
+
   .column img {
     width: 100%;
   }
-  
+
   .figurecaption {
     background-color: #333;
     color: white;
@@ -151,7 +158,7 @@ p {
     font-size: 18px;
     text-align: center;
   }
-  
+
   #navbar {
     color: red;
   }
