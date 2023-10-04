@@ -54,7 +54,7 @@ h1, h2 {
 }
 
 .figurecaption figcaption {
-    font-size: 20px; /* Changing font size */
+    font-size: 20px; 
     text-align: center;
     margin-top: 10px;
     font-weight: bold;
