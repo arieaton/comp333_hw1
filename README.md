@@ -7,4 +7,4 @@ We use css, and html.
 Contents of our directory: We have an index html file which dictates the structure of our main webpage. In addition, we have three other html files which function as secondary webpages. We have a css file called stylesheet.css. We also have images that we use in our sites in their own folder.
 How to run: We have been running the code locally in our browsers. 
 
-
+We used ChatGPT to help us with some of the styling.
