@@ -42,9 +42,11 @@ h1, h2 {
     justify-content: space-between;
 }
 
-.column {
-    flex: 2;
-    margin: 10px;
+.column img {
+    width: 70%;      /* Adjust this percentage as needed to make the images smaller */
+    max-width: 100%; /* This ensures the images don't overflow their container */
+    display: block;  /* Centers the images horizontally */
+    margin: 0 auto;  /* Centers the images horizontally */
 }
 
 .figurecaption img {
